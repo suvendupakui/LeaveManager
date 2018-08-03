@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 
-namespace OpMgr.Common.Contracts.Modules
+namespace LeaveMgr.Common.Contracts.Modules
 {
     public interface IUserTransactionSvc : ICRUDSvc<DTOs.UserTransactionDTO, DTOs.UserTransactionDTO>, IDisposable
     {

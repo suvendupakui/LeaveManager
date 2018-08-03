@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using OpMgr.Common.DTOs;
+using LeaveMgr.Common.DTOs;
 
-namespace OpMgr.Common.Contracts.Modules
+namespace LeaveMgr.Common.Contracts.Modules
 {
     public interface IEntitlementSvc : ICRUDSvc<EntitlementDTO, EntitlementDTO>
     {

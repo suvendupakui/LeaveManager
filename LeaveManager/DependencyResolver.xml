@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<module name="configModule">
+  <bind service="LeaveMgr.Common.Contracts.IConfigSvc, LeaveMgr.Common"
+    to="LeaveMgr.Configurations.Implementations.ConfigSvc, LeaveMgr.Configurations" />
+
+  <bind service="LeaveMgr.Common.Contracts.Modules.IUserTransactionSvc, LeaveMgr.Common"
+    to="LeaveMgr.DataAccess.Implementations.UserTransactionSvc, LeaveMgr.DataAccess" />
+
+  <bind service="LeaveMgr.Common.Contracts.ILogSvc, LeaveMgr.Common"
+    to="LeaveMgr.Logger.Implementations.TextLogSvc, LeaveMgr.Logger" />
+
+  <bind service="LeaveMgr.Common.Contracts.IMailSvc, LeaveMgr.Common"
+    to="LeaveMgr.Mailer.MailSvc, LeaveMgr.Mailer" /> 
+
+  <bind service="LeaveMgr.Common.Contracts.ISessionSvc, LeaveMgr.Common"
+    to="OperationsManager.Helpers.SessionSvc, OperationsManager" />
+
+  <bind service="LeaveMgr.Common.Contracts.ICommonConfigDataSvc, LeaveMgr.Common"
+    to="LeaveMgr.DataAccess.Implementations.CommonConfigDataSvc, LeaveMgr.DataAccess" />
+
+  <bind service="LeaveMgr.Common.Contracts.Modules.ITransactionMasterSvc, LeaveMgr.Common"
+    to="LeaveMgr.DataAccess.Implementations.TransactionMasterSvc, LeaveMgr.DataAccess" />
+
+  <bind service="LeaveMgr.Common.Contracts.Modules.ITransactionRuleSvc, LeaveMgr.Common"
+    to="LeaveMgr.DataAccess.Implementations.TransactionRuleSvc, LeaveMgr.DataAccess" />
+
+  <bind service="LeaveMgr.Common.Contracts.Modules.ITransactionLogSvc, LeaveMgr.Common"
+    to="LeaveMgr.DataAccess.Implementations.TransactionLogSvc, LeaveMgr.DataAccess" />
+
+  <bind service="LeaveMgr.Common.Contracts.Modules.INotificationSvc, LeaveMgr.Common"
+    to="LeaveMgr.DataAccess.Implementations.NotificationSvc, LeaveMgr.DataAccess" />
+
+  <bind service="LeaveMgr.Common.Contracts.Modules.IChatSvc, LeaveMgr.Common"
+    to="LeaveMgr.DataAccess.Implementations.ChatSvc, LeaveMgr.DataAccess" />
+
+  <bind service="LeaveMgr.Common.Contracts.Modules.ITransactionLogPaymentSvc, LeaveMgr.Common"
+    to="LeaveMgr.DataAccess.Implementations.TransactionLogPaymentSvc, LeaveMgr.DataAccess" />
+
+  <bind service="LeaveMgr.Common.Contracts.Modules.ILibraryTransactionSvc, LeaveMgr.Common"
+    to="LeaveMgr.DataAccess.Implementations.LibraryTransactionSvc, LeaveMgr.DataAccess" />
+
+  <bind service="LeaveMgr.Common.Contracts.Modules.ITransactionSvc, LeaveMgr.Common"
+    to="LeaveMgr.TransactionHandler.Implementations.TransactionSvc, LeaveMgr.TransactionHandler" />
+
+  <bind service="LeaveMgr.Common.Contracts.IDbSvc, LeaveMgr.Common"
+    to="LeaveMgr.DataAccess.Implementations.DbSvc, LeaveMgr.DataAccess" />
+
+  <bind service="LeaveMgr.Common.Contracts.Modules.IDropdownRepo, LeaveMgr.Common"
+    to="LeaveMgr.DataAccess.Implementations.DropdownRepo, LeaveMgr.DataAccess" />
+
+
+  <bind service="LeaveMgr.Common.Contracts.Modules.IUserSvc, LeaveMgr.Common"
+    to="LeaveMgr.DataAccess.Implementations.UserSvc, LeaveMgr.DataAccess" />
+
+  <bind service="LeaveMgr.Common.Contracts.Modules.IPMSSvc, LeaveMgr.Common"
+    to="LeaveMgr.DataAccess.Implementations.PMSSvc, LeaveMgr.DataAccess" /> 
+  
+  <bind service="LeaveMgr.Common.Contracts.Modules.IStudentSvc, LeaveMgr.Common"
+    to="LeaveMgr.DataAccess.Implementations.StudentSvc, LeaveMgr.DataAccess" />
+   
+<bind service="LeaveMgr.Common.Contracts.IResetPasswordSvc, LeaveMgr.Common"
+    to="LeaveMgr.DataAccess.Implementations.ResetPasswordSvc, LeaveMgr.DataAccess" />  
+
+  <bind service="LeaveMgr.Common.Contracts.Modules.IBookMasterSvc, LeaveMgr.Common"
+    to="LeaveMgr.DataAccess.Implementations.BookMasterSvc, LeaveMgr.DataAccess" />
+
+  <bind service="LeaveMgr.Common.Contracts.Modules.IEntitlementActionSvc, LeaveMgr.Common"
+    to="LeaveMgr.DataAccess.Implementations.EntitlementActionSvc, LeaveMgr.DataAccess" />
+
+  <bind service="LeaveMgr.Common.Contracts.ICommonConfigSvc, LeaveMgr.Common"
+    to="LeaveMgr.Configurations.Implementations.WebCommonConfigSvc, LeaveMgr.Configurations" />
+  
+  <bind service="LeaveMgr.Common.Contracts.Modules.IExamMarksSvc, LeaveMgr.Common"
+    to="LeaveMgr.DataAccess.Implementations.ExamMarksSvc, LeaveMgr.DataAccess" />
+
+  <bind service="LeaveMgr.Common.Contracts.Modules.IExamRuleSvc, LeaveMgr.Common"
+    to="LeaveMgr.DataAccess.Implementations.ExamRuleSvc, LeaveMgr.DataAccess" />
+
+  <bind service="LeaveMgr.Common.Contracts.Modules.IResultSvc, LeaveMgr.Common"
+    to="LeaveMgr.DataAccess.Implementations.ResultSvc, LeaveMgr.DataAccess" />
+
+  <bind service="LeaveMgr.Common.Contracts.Modules.IStudentRemarksSvc, LeaveMgr.Common"
+    to="LeaveMgr.DataAccess.Implementations.StudentRemarksSvc, LeaveMgr.DataAccess" />
+</module>
+

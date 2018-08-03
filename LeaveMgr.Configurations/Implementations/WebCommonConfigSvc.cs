@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using OpMgr.Common.Contracts;
-using OpMgr.DataAccess.Implementations;
+using LeaveMgr.Common.Contracts;
+//using LeaveMgr.DataAccess.Implementations;
 using MySql.Data.MySqlClient;
 using System.Data;
 
-namespace OpMgr.Configurations.Implementations
+namespace LeaveMgr.Configurations.Implementations
 {
     public class WebCommonConfigSvc : ICommonConfigSvc
     {

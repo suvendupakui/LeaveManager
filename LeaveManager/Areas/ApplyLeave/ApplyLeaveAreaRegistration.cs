@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace LeaveManager.Areas.ApplyLeave
+namespace LeaveMgr.Areas.ApplyLeave
 {
     public class ApplyLeaveAreaRegistration : AreaRegistration 
     {

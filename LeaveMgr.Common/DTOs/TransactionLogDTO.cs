@@ -1,9 +1,9 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-using OpMgr.Resources;
-using OpMgr.Resources.Transaction;
+using LeaveMgr.Resources;
+using LeaveMgr.Resources.Transaction;
 
-namespace OpMgr.Common.DTOs
+namespace LeaveMgr.Common.DTOs
 {
     public class TransactionLogDTO
     {

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 
-namespace OpMgr.Common.Contracts
+namespace LeaveMgr.Common.Contracts
 {
     public interface IDbSvc : IDisposable
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OpMgr.Common.Contracts
+namespace LeaveMgr.Common.Contracts
 {
     public interface ICommonConfigDataSvc : IDisposable
     {

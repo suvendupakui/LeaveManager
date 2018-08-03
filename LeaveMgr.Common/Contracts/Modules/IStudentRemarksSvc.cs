@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OpMgr.Common.Contracts.Modules
+namespace LeaveMgr.Common.Contracts.Modules
 {
     public interface IStudentRemarksSvc
     {

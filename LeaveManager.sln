@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaveMgr.Configurations", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaveMgr.DataAccess", "LeaveMgr.DataAccess\LeaveMgr.DataAccess.csproj", "{5FEDD382-C79A-4252-9451-9661F5B0BE46}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaveMgr.Resources", "LeaveMgr.Resources\LeaveMgr.Resources.csproj", "{153053F4-C753-4D45-B4E0-ED87BE997008}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{5FEDD382-C79A-4252-9451-9661F5B0BE46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FEDD382-C79A-4252-9451-9661F5B0BE46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FEDD382-C79A-4252-9451-9661F5B0BE46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{153053F4-C753-4D45-B4E0-ED87BE997008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{153053F4-C753-4D45-B4E0-ED87BE997008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{153053F4-C753-4D45-B4E0-ED87BE997008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{153053F4-C753-4D45-B4E0-ED87BE997008}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,11 +1,11 @@
-﻿using OpMgr.Common.Contracts;
+﻿using LeaveMgr.Common.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OpMgr.Configurations.Implementations
+namespace LeaveMgr.Configurations.Implementations
 {
     public class AppCommonConfigSvc: ICommonConfigSvc
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace LeaveManager.Areas.ApplyLeave.Controllers
+namespace LeaveMgr.Areas.ApplyLeave.Controllers
 {
     public class ApplyLeaveController : Controller
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace OpMgr.Common.DTOs
+namespace LeaveMgr.Common.DTOs
 {
     public class PMSMasterModel
     {
